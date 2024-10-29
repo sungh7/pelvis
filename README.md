@@ -1,6 +1,6 @@
 # Pelvic X-ray Data Augmentation and Sanity Check Using PGGAN
 
-> ** Improving Quality of Pelvic X-ray Images with Sanity Check **
+> **Improving Quality of Pelvic X-ray Images with Sanity Check**
 
 ## Table of Contents
 - [About the Project](#about-the-project)
