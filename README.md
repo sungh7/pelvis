@@ -1,6 +1,6 @@
 # Pelvic X-ray Data Augmentation and Sanity Check Using PGGAN
 
-> **Improving Diagnostic Accuracy in Hip Joint Disease with Enhanced Pelvic X-ray Images**
+> **Improving Quality of Pelvic X-ray Images with Sanity Check **
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -37,7 +37,7 @@ Pelvic X-ray 이미지는 골반 질환의 진단 및 평가에 필수적인 자
    본 프로젝트는 `Python 3.x`에서 실행되며, `requirements.txt` 파일에 명시된 모든 패키지를 설치합니다.
 
    ```bash
-   conda install -r requirements.txt
+   conda env create -f requirements.yml
    ```
 2.	Git LFS 활성화:
 큰 파일을 관리하기 위해 Git LFS를 사용합니다.
