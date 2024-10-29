@@ -34,13 +34,14 @@ Pelvic X-ray 이미지는 골반 질환의 진단 및 평가에 필수적인 자
 ## Installation
 
 1. **Python 및 패키지 설치**:  
-   본 프로젝트는 `Python 3.x`에서 실행되며, `requirements.txt` 파일에 명시된 모든 패키지를 설치합니다.
+   본 프로젝트는 `Python 3.*`에서 실행되며, `requirements.txt` 파일에 명시된 모든 패키지를 설치합니다.
 
    ```bash
    conda env create -f requirements.yml
+   pip install fastai==1.0.61
    ```
 2.	Git LFS 활성화:
-큰 파일을 관리하기 위해 Git LFS를 사용합니다.
+   큰 파일을 관리하기 위해 Git LFS를 사용합니다.
 
    ```bash
    git lfs install
